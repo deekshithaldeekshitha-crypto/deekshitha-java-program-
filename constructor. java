@@ -1,0 +1,12 @@
+class Student {
+    Student() {
+        this("Shilpi"); // calls parameterized constructor
+        System.out.println("Default constructor");
+    }
+    Student(String name) {
+        System.out.println("Name is: " + name);
+    }
+    public static void main(String[] args) {
+        Student s = new Student();
+    }
+}
